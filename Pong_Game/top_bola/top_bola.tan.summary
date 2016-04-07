@@ -1,0 +1,66 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.029 ns
+From           : up
+To             : bola:bol|Desplaza_Pala_Y[0]
+From Clock     : --
+To Clock       : clock
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.945 ns
+From           : controlador_vga_640_x_480:VGA|vga_blank
+To             : vga_blank
+From Clock     : clock
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -6.102 ns
+From           : up_R
+To             : bola:bol|Desplaza_Pala_R_Y[3]
+From Clock     : --
+To Clock       : clock
+Failed Paths   : 0
+
+Type           : Clock Setup: 'vga_pll:PLL|altpll:altpll_component|_clk0'
+Slack          : 30.995 ns
+Required Time  : 25.00 MHz ( period = 40.000 ns )
+Actual Time    : 111.05 MHz ( period = 9.005 ns )
+From           : bola:bol|Pala_Y[2]
+To             : controlador_vga_640_x_480:VGA|vga_blue
+From Clock     : vga_pll:PLL|altpll:altpll_component|_clk0
+To Clock       : vga_pll:PLL|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'vga_pll:PLL|altpll:altpll_component|_clk0'
+Slack          : 0.391 ns
+Required Time  : 25.00 MHz ( period = 40.000 ns )
+Actual Time    : N/A
+From           : bola:bol|Desplaza_Bola_X[1]
+To             : bola:bol|Desplaza_Bola_X[1]
+From Clock     : vga_pll:PLL|altpll:altpll_component|_clk0
+To Clock       : vga_pll:PLL|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
